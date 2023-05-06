@@ -178,7 +178,7 @@ Below is the beginning of the code as well as the functions utilized to complete
     plt.show()
 
 
-![Top Grossing Movies for each year](https://github.com/MEElms/Project-3/blob/main/images/Screenshot%202023-04-28%20at%206.19.49%20PM.png?raw=true)
+![Donut Chart](https://github.com/MEElms/Project-4/blob/main/images/Screenshot%202023-05-06%20at%202.41.07%20PM.png?raw=true)
 
 #### NB Analyzer Code
     df['Sentiments-TB'] = df['Sentiment']
@@ -236,5 +236,5 @@ Below is the beginning of the code as well as the functions utilized to complete
     top_words = pd.Series(top_words).value_counts().head(20)
 
     generate_wordcloud(' '.join(top_words.index))
-![Maximum Theaters for top grossing movie each year](https://github.com/MEElms/Project-3/blob/main/images/Screenshot%202023-04-28%20at%206.20.16%20PM.png?raw=true)
+![Word Cloud](https://github.com/MEElms/Project-4/blob/main/images/Screenshot%202023-05-06%20at%202.41.00%20PM.png?raw=true)
 
